@@ -1,0 +1,161 @@
+@import "reset.css";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body {
+    background: linear-gradient(to top left, #7fbdfd, #7870c4, #d4a8d0, #7fbdfd) fixed;
+    font-family: 'Roboto Slab', serif;
+}
+
+.wrapper{
+    margin: 17px auto;
+    width: 1200px;
+    opacity: 0.9;
+}
+
+.head {
+    border-radius: 5px;
+}
+.menu{
+    margin: 17px auto;
+    width: 1200px;
+    background-color: white;
+    border-radius: 5px;
+    opacity: 0.8;
+    height: 50px;
+
+}
+.menu_table{
+    float: right;
+    margin-right: 10px;
+}
+.menu_table a {
+    color: black;
+    text-decoration: none;
+}
+.menu_table  td {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content_select {
+    text-align: center;
+    float: left;
+    box-sizing: content-box;
+    background-color: white;
+    height: 800px;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.content_select > p {
+    text-align: left;
+    font-size: 60px;
+    margin: 20px;
+}
+
+#select{
+    width: 1200px;
+}
+
+.footer {
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 1200px;
+    height: 100px;
+}
+
+.footer_social_buttons {
+    float: right;
+    margin-top: -45px;
+    margin-right: 25px;
+}
+.button {
+    padding-right: 10px;
+    transition: 0.3s;
+}
+.button:hover{
+    transform: scale(.9);
+}
+.footer_social {
+    font-size: 20px;
+    padding-top: 40px;
+}
+.contacts {
+    padding-left: 50px;
+    padding-top: 33px;
+}
+
+.description_img {
+    background-color: red;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.goods_img {
+    margin: 30px;
+    width: 400px;
+    height: 400px;
+}
+
+.goods_info {
+    box-sizing: content-box;
+    float: left;
+}
+
+.goods_all {
+    margin-top: 50px;
+    /*margin-left: 100px;*/
+}
+
+#description{
+    margin-top: 30px;
+    padding-right: 10px;
+    text-align: left;
+    line-height: 1.5em;
+    height: 600px;
+    border-right: ridge;
+}
+
+
+.info {
+    padding-left: 15px;
+}
+
+.btn:hover {
+    transform: scale(0.9);
+}
+
+.btn {
+    width: 240px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 23px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #8e7dc7;
+    border-bottom-width: 4px;
+    border-bottom-color: #7e74c4;
+    font-size: 30px;
+    background-color: #8e7dc7;
+    color: #ffffff;
+    transition: 0.3s;
+}
+.btn_back {
+    margin-top: -20px;
+    width: 120px;
+    font-size: 20px;
+    height: 30px;
+}

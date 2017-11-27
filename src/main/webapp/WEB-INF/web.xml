@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"
+           version="3.0">
+
+    <servlet>
+        <servlet-name>AuthServlet</servlet-name>
+        <servlet-class>ru.kpfu.itis.Gabitova.servlets.Auth</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AuthServlet</servlet-name>
+        <url-pattern>/auth</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>ru.kpfu.itis.Gabitova.servlets.Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegistrServlet</servlet-name>
+        <servlet-class>ru.kpfu.itis.Gabitova.servlets.AddUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegistrServlet</servlet-name>
+        <url-pattern>/addUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddProductServlet</servlet-name>
+        <servlet-class>ru.kpfu.itis.Gabitova.servlets.AddProduct</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddProductServlet</servlet-name>
+        <url-pattern>/addProduct</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditProductServlet</servlet-name>
+        <servlet-class>ru.kpfu.itis.Gabitova.servlets.EditProduct</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditProductServlet</servlet-name>
+        <url-pattern>/editProduct/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddCommentServlet</servlet-name>
+        <servlet-class>ru.kpfu.itis.Gabitova.servlets.AddComment</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCommentServlet</servlet-name>
+        <url-pattern>/addComment/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddToBucket</servlet-name>
+        <servlet-class>ru.kpfu.itis.Gabitova.servlets.AddToBucket</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddToBucket</servlet-name>
+        <url-pattern>/addToBucket/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteProduct</servlet-name>
+        <servlet-class>ru.kpfu.itis.Gabitova.servlets.DeleteProduct</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteProduct</servlet-name>
+        <url-pattern>/deleteProduct/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteProductFromBucket</servlet-name>
+        <servlet-class>ru.kpfu.itis.Gabitova.servlets.DeleteFromBucket</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteProductFromBucket</servlet-name>
+        <url-pattern>/deleteFromBucket/*</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>ProductPage</servlet-name>
+        <jsp-file>/Products.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProductPage</servlet-name>
+        <url-pattern>/products</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DetailProductPage</servlet-name>
+        <jsp-file>/DetailProduct.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DetailProductPage</servlet-name>
+        <url-pattern>/products/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BucketPage</servlet-name>
+        <jsp-file>/Bucket.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BucketPage</servlet-name>
+        <url-pattern>/bucket</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddProductPage</servlet-name>
+        <jsp-file>/AddProduct.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddProductPage</servlet-name>
+        <url-pattern>/add_product</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditProductPage</servlet-name>
+        <jsp-file>/EditProduct.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditProductPage</servlet-name>
+        <url-pattern>/edit_product/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginPage</servlet-name>
+        <jsp-file>/Login.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginPage</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegistrPage</servlet-name>
+        <jsp-file>/Registration.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegistrPage</servlet-name>
+        <url-pattern>/registration</url-pattern>
+    </servlet-mapping>
+
+</web-app>

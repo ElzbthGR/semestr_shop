@@ -1,0 +1,157 @@
+@import "reset.css";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body {
+    background: linear-gradient(to top left, #7fbdfd, #7870c4, #d4a8d0, #7fbdfd) fixed;
+    font-family: "Roboto Slab", serif;
+}
+
+.wrapper{
+    margin: 17px auto;
+    width: 1200px;
+    opacity: 0.9;
+}
+
+.head {
+    border-radius: 5px;
+}
+
+.menu{
+    margin: 17px auto;
+    width: 1200px;
+    background-color: white;
+    border-radius: 5px;
+    opacity: 0.8;
+    height: 50px;
+
+}
+
+.menu_table{
+    float: right;
+    margin-right: 10px;
+}
+
+.menu_table a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu_table  td {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content_select {
+    text-align: center;
+    background-color: white;
+    height: auto;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+#select{
+    width: 1200px;
+}
+
+.box_info {
+    box-sizing: content-box;
+    float: left;
+    margin: 35px;
+    line-height: 1.3em;
+}
+
+.img_min {
+    width: 225px;
+    height: 225px;
+    margin-bottom: 12px;
+}
+
+.content_boxes {
+    width: 900px;
+    margin: 0 150px;
+    float: left;
+    box-sizing: content-box;
+}
+
+.pages {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 1200px;
+    height: 100px;
+}
+
+.footer_social_buttons {
+    float: right;
+    margin-top: -45px;
+    margin-right: 25px;
+}
+
+.button {
+    padding-right: 10px;
+    transition: 0.3s;
+}
+
+#general_price {
+
+}
+
+.button:hover{
+    transform: scale(.9);
+}
+
+.img_size {
+    height: 20px;
+    width: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footer_social {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+#page1 {
+    color: #727dff;
+    text-decoration: none;
+}
+
+#page2 {
+    color: #ff4b59;
+    text-decoration: none;
+}
+
+#page3 {
+    color: #727dff;
+    text-decoration: none;
+}
+
+.contacts {
+    padding-left: 50px;
+    padding-top: 33px;
+}
+
+.final {
+    margin: 50px;
+}
+
+.describe {
+    text-decoration: none;
+    color: black;
+}

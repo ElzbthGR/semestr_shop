@@ -1,0 +1,117 @@
+@import "reset.css";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body {
+    background: linear-gradient(to top left, #7fbdfd, #7870c4, #d4a8d0, #7fbdfd) fixed;
+}
+
+.wrapper {
+    margin: 160px auto;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+    width: 600px;
+    height: 480px;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+}
+
+.wrapper > p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.worksheet > a {
+    margin-left: 10px;
+}
+
+.all {
+    max-width: 625px;
+    margin: 0 auto;
+}
+
+.form > p {
+    font-size: 40px;
+    color: #ffffff;
+    padding-top: 28px;
+}
+#login {
+    margin-top: -20px;
+    padding-top: 27px;
+    margin-bottom: 23px;
+}
+.data {
+    width: 425px;
+    margin-left: 83px;
+    position: relative;
+}
+
+.input {
+    width: 407px;
+    height: 30px;
+    border-bottom: groove;
+}
+
+.description {
+    font-size: 24px;
+    text-align: center;
+    color: #adb2bd;
+    margin-bottom: 13px;
+}
+input {
+    padding: 9px;
+    border-color: #4dcce8;
+    border-width: 0px;
+    border-style: double;
+    font-size: 20px;
+    color: #8e7dc7;
+    font-family: "Roboto Slab", serif;
+}
+
+.checkbox {
+    margin: 23px auto;
+}
+
+#registration {
+    color: black;
+}
+
+.signin:hover {
+    transform: scale(0.9);
+}
+
+.signin {
+    width: 226px;
+    height: 50px;
+    margin-top: 28px;
+    margin-bottom: 23px;
+    border-radius: 5px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-color: #7e74c4;
+    font-size: 30px;
+    background-color: #8e7dc7;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.label {
+    font-family: "Roboto Slab", serif;
+    font-size: 13px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+    left: -115px;
+    background: red;
+    position: absolute;
+    display: none;
+    margin-top: 12%;
+    float: right;
+}

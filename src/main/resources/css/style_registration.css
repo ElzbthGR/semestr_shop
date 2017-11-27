@@ -1,0 +1,126 @@
+@import "reset.css";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body {
+    background: linear-gradient(to top left, #7fbdfd, #7870c4, #d4a8d0, #7fbdfd) fixed;
+    font-family: "Roboto Slab", serif;
+}
+
+.wrapper{
+    margin: 17px auto;
+    width: 1200px;
+    opacity: 0.9;
+}
+
+.head {
+    border-radius: 5px;
+}
+.registration {
+
+    font-size: 60px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.hr {
+    width: 200px;
+    opacity: 0.3;
+}
+.main_hr {
+    margin-top: 23px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content_select {
+    float: left;
+    box-sizing: content-box;
+    background-color: white;
+    height: 800px;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+#select{
+    width: 1200px;
+}
+
+.form {
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 90px;
+    font-size: 30px;
+}
+
+.form > tr {
+    padding-bottom: 50px;
+}
+
+.form input {
+    margin-left: 50px;
+    width: 350px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    border-style: ridge;
+}
+
+.footer {
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 1200px;
+    height: 100px;
+}
+
+.footer_social_buttons {
+    float: right;
+    margin-top: -45px;
+    margin-right: 25px;
+}
+.button {
+    padding-right: 10px;
+    transition: 0.3s;
+}
+.button:hover{
+    transform: scale(.9);
+}
+.footer_social {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.contacts {
+    padding-left: 50px;
+    padding-top: 33px;
+}
+strong {
+    font-weight: bold;
+}
+.sign_up {
+    margin-left: 90px;
+    width: 226px;
+    height: 50px;
+    margin-top: 13px;
+    margin-bottom: 23px;
+    border-radius: 5px;
+    border: #8e7dc7 solid;
+    border-bottom-width: 4px;
+    border-bottom-color: #7e74c4;
+    font-size: 20px;
+    background-color: #8e7dc7;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.sign_up:hover {
+    transform: scale(0.9);
+}
